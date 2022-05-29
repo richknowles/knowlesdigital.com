@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build install netlify-cms-app --save"
+  command = "npm run build"
   publish = ".next"
 
 [[plugins]]
