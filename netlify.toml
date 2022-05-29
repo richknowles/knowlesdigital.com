@@ -1,7 +1,6 @@
 [build]
-  command = "npm run build"
+  command = "npm run build install netlify-cms-app --save"
   publish = ".next"
-  command = "npm install netlify-cms-app --save"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
